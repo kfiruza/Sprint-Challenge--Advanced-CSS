@@ -2,7 +2,7 @@
 
 
 
-.btn-format(@size, @bord-rad) { // mixin para 1
+.btn-format(@size, @bord-rad) { 
     color: @porcelain;
     background-color: @btn-bg-color;
     width: @size;
@@ -18,7 +18,7 @@
     }
 }
 
-.spin(@color) { // mixin para 2
+.spin(@color) { 
     &:hover {
     cursor: pointer;
     transform: rotateY(-360deg);
@@ -27,18 +27,18 @@
     }    
 }
 
-.for-mobile(@flex-dir, @just) { // mixin para 3
+.for-mobile(@flex-dir, @just) { 
     display: flex;
     flex-direction: @flex-dir;
     justify-content: @just;
 }
 
-.mob-pad(){ // mixin 1
+.mob-pad(){ 
     width: 100%;
     padding: 0 3%;
 }
 
-.hide() { // mixin 2
+.hide() { 
     display: none;
 }
 
