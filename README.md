@@ -33,14 +33,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+  
+    Adaptive layouts switch between different version of a website based on the device. A fully responsive website has one layout that adapts, or is flexible, (i.e. "responds"), to the device (no-switching)
 
 2. Describe what it means to be mobile first vs desktop first.
 
+  Mobile first means the design scales up from a mobile lay out (bottom-up from small --> large). Desktop first is the opposite, designing with PCs/larger screens in mind primarily, before designing for smaller screens (top-down from larg --> small).
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+   
+   An em unit is a scalable unit based on the element’s font size. 62.5% of 16px (the default browser font-size) is 10px, so setting font-size: 62.5% in the HTML tag makes it convenient to size rem units to px i.e. 1.6rem = 16px. In the root HTML tag,all rem units will be the same size (unlike em units).
 
 4. How would you describe preprocessing to someone new to CSS?
+ 
+   As flex-box was to block display, preprocessors are to CSS. That is, an evolution of the syntax to be more similar to JavaScript in style, with indentation rules, own methods, variables and functions etc.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+ I like how preprocessing . Although I am comfortable with the features we have learned, it is a challenge to think about HOW those tools should be used in the best way for each situation.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
